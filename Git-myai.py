@@ -52,7 +52,7 @@ def byteify(input_data):
 		
 		
 def get():
-    apiKey = "xxxxxxxxxxxxx"
+    apiKey = "xxxxxxxxxxxxxxxx"
     params = ""
     headers = {"Ocp-Apim-Subscription-Key": apiKey}
     AccessTokenHost = "api.cognitive.microsoft.com"
@@ -76,7 +76,7 @@ def read_in_chunks(file_object, chunk_size=1024):
             break
         yield data
 def  ai(neirong):
-    API_KEY = 'xxxxxxxxxxxxx'
+    API_KEY = 'xxxxxxxxxxxxxxxx'
     url = "http://www.tuling123.com/openapi/api?key="+API_KEY+"&info="
     nei = neirong
     url = url+ urllib.request.quote(nei)
@@ -89,7 +89,7 @@ def  ai(neirong):
     hjson = json.loads(data)
     return hjson['text']
 def he(string):
-    apiKey = "xxxxxxxxxxxxx"
+    apiKey = "xxxxxxxxxxxxxxxx"
     params = ""
     headers = {"Ocp-Apim-Subscription-Key": apiKey}
     #AccessTokenUri = "https://api.cognitive.microsoft.com/sts/v1.0/issueToken";
