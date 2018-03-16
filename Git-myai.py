@@ -52,7 +52,7 @@ def byteify(input_data):
 		
 		
 def get():
-    apiKey = "xxxxxxxxxxxxxxxx"
+    apiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
     params = ""
     headers = {"Ocp-Apim-Subscription-Key": apiKey}
     AccessTokenHost = "api.cognitive.microsoft.com"
